@@ -11,8 +11,18 @@ The image files need to be in the same folder and named like so:
 Examples:
 ```
 Flowers-52.JPG
+Flowers-53.JPG
+...
+```
+```
 NewYork_8112.png
-BasketballU12 1.jpg
+NewYork_8113.png
+...
+```
+```
+BasketballU12 01.jpg
+BasketballU12 02.jpg
+...
 ```
 ## Instructions
 ### Setup
