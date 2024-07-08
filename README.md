@@ -16,12 +16,21 @@ BasketballU12 1.jpg
 ```
 ## Instructions
 ### Setup
-Download .zip file and unzip the files with the green download button above
-Open a terminal within the unziped folder. For example: `cd C:\Users\matas\Downloads\gifMaker`
-Run: `pip install -r requirements.txt`
-### Working with the script:
-You need to 1. edit the **config.json** file, 2. run **gifMaker.py** with `python gifMaker.py` via a terminal that has the folder where the file is located. Example:
-`C:\Users\matas\Programos\GifMaker> python gifMaker.py`
+
+ - Download .zip file and unzip the files with the green 'code' button
+   above
+  - Open a terminal within the unziped folder. For example in cmd: `cd
+   C:\Users\matas\Downloads\gifMaker`
+   - Run: `pip install -r
+   requirements.txt`
+
+### Working with the script: 
+
+ 1. Edit the **config.json** (instructions below)
+ 2. Run **gifMaker.py** with `python gifMaker.py` via a terminal that
+    has the folder where the file is located opened. Example:
+    `C:\Users\matas\Programos\GifMaker> python gifMaker.py`
+
 >Note: the config.json file and gifMaker.py need to be in the same folder.
 
 ### Editing config.json
