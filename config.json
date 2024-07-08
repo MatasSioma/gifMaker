@@ -1,0 +1,17 @@
+{
+    "exportPath": "export/",
+    "pathToPics": "",
+    "basePicName": "",
+    "picExtension": "",
+    "imageRangesString": "",
+    "numberFill": 0,
+    "gifSettings": {
+        "duration": 0.25,
+        "loop": 0,
+        "stutter": 0,
+        "paletteSize": 256,
+        "quantizer": "nq",
+        "subrectangles": true,
+        "maxFileSize": 3
+    }
+}
