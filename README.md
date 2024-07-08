@@ -17,12 +17,10 @@ BasketballU12 1.jpg
 ## Instructions
 ### Setup
 
- - Download .zip file and unzip the files with the green 'code' button
+- Download .zip file and unzip the files with the green 'code' button
    above
-  - Open a terminal within the unziped folder. For example in cmd: `cd
-   C:\Users\matas\Downloads\gifMaker`
-   - Run: `pip install -r
-   requirements.txt`
+- Open a terminal within the unziped folder. For example in cmd: `cd C:\Users\matas\Downloads\gifMaker`
+- Run: `pip install -r requirements.txt`
 
 ### Working with the script: 
 
@@ -34,7 +32,7 @@ BasketballU12 1.jpg
 >Note: the config.json file and gifMaker.py need to be in the same folder.
 
 ### Editing config.json
-*Full example config.json file provided below*
+*Full example config.json file provided below*\
 Open config.json with notepad or a code editor to change its contents.
 #### config.json values:
 "exportPath": "\<path where to store the resulting gifs>",
@@ -51,13 +49,13 @@ Open config.json with notepad or a code editor to change its contents.
 >`".jpg" / ".png", ...`
 
 "imageRangesString": "\<one or more image number ranges (start and end included)>",
->Format: image numbers separated by `-`. And for multiple ranges (and in turn resulting gifs), they need to be separated by a comma (`,`)
->All the images in a single specified range need to have the same resolution or an error will be thrown.
+>Format: image numbers separated by `-`. And for multiple ranges (and in turn resulting gifs), they need to be separated by a comma (`,`)\
+>All the images in a single specified range need to have the same resolution or an error will be thrown.\
 >Note: A range's start and end numbers (images) are included
 
 "numberFill": \<length of the numbers in the file names>
->If the numbers in the range are `"83-85"` but the files names are ...0083.jpg and ...0085.jpg, the value would be `4`
->The code fills in `0`'s before the the range numbers so that the length of the number is equal this attribute's value
+>If the numbers in the range are `"83-85"` but the files names are ...0083.jpg and ...0085.jpg, the value would be `4`\
+>The code fills in `0`'s before the the range numbers so that the length of the number is equal this attribute's value\
 >Note: if you specified a range like `"0083-0085"`, you still need to specify the number length, which in this case would be `4`
 
 "duration": \<duration of a single frame in the gif (in seconds)>,
